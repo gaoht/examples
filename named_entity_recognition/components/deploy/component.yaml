@@ -28,7 +28,7 @@ inputs:
 outputs:
 implementation:
   container:
-    image: gcr.io/<PROJECT-ID>/kubeflow/ner/deploy:latest
+    image: registry.cn-zhangjiakou.aliyuncs.com/iamght/kubeflow:deploy
     command: [
       sh, /pipelines/component/src/deploy.sh
     ]

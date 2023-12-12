@@ -13,7 +13,7 @@ outputs:
     type: GCSPath
 implementation:
   container:
-    image: gcr.io/<PROJECT-ID>/kubeflow/ner/train:latest
+    image: registry.cn-zhangjiakou.aliyuncs.com/iamght/kubeflow:train
     command: [
       python3, /pipelines/component/src/train.py,
       --input-x-path,             {inputValue: Input x URI},
