@@ -1,7 +1,7 @@
 #!/bin/sh
 
-image_name=registry.cn-zhangjiakou.aliyuncs.com/iamght/kubeflow/ner/deploy
-image_tag=latest
+image_name=registry.cn-zhangjiakou.aliyuncs.com/iamght/kubeflow
+image_tag=deploy
 
 full_image_name=${image_name}:${image_tag}
 

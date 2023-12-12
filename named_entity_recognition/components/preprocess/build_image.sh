@@ -1,7 +1,7 @@
 #!/bin/sh
 
-image_name=registry.cn-zhangjiakou.aliyuncs.com/iamght/kubeflow/ner/preprocess
-image_tag=latest
+image_name=registry.cn-zhangjiakou.aliyuncs.com/iamght/kubeflow
+image_tag=preprocess
 
 full_image_name=${image_name}:${image_tag}
 base_image_tag=1.12.0-py3
